@@ -39,7 +39,7 @@ function render(variables = {}) {
   }</h1>
           <h2>${variables.role == null ? `Role` : variables.role}</h2>
           <h3>${variables.city == null ? `City` : variables.city} ${
-    variables.country == null ? `county` : variables.country
+    variables.country == null ? `Country` : variables.country
   }</h3>
           <ul class = ${variables.socialMediaPosition}>
             <li><a href="https://twitter.com/${
@@ -56,7 +56,7 @@ function render(variables = {}) {
             }"><i class="bi bi-instagram"></i></a></li>
           </ul>
         </div>
-    `;
+  `;
 }
 
 /**
